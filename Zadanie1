@@ -1,0 +1,23 @@
+Celem tego zadania jest napisanie programu, który będzie obliczał wartość paragonu/faktury na podstawie podanych pozycji, uwzględniając sumaryczną wartość podatku.
+Dodatkowo, program powinien drukować podsumowanie w formacie Markdown.
+
+Pozycje Wejściowe:
+
+Clean Code, Robert C. Martin
+
+Netto: 100,00 zł
+VAT: 8%
+Applying UML and Patterns, C. Larman
+
+Netto: 300,00 zł
+VAT: 8%
+Shipping
+
+Netto: 50 zł
+VAT: 23%
+Wymagane Funkcje Programu:
+
+Obliczanie łącznej wartości netto.
+Obliczanie sumy podatku VAT dla każdej stawki.
+Drukowanie podsumowania w formacie Markdown.
+Oczekiwany Rezultat w Markdown:
