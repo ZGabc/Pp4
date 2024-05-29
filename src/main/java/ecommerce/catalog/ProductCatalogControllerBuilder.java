@@ -1,4 +1,4 @@
-package zG.catalog.hello;
+package ecommerce.catalog;
 
 public class ProductCatalogControllerBuilder {
     private ProductCatalog catalog;

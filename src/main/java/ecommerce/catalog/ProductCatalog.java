@@ -1,8 +1,8 @@
-package zG.catalog.hello;
-
+package ecommerce.catalog;
 
 import java.math.BigDecimal;
-import java.util.*;
+import java.util.List;
+import java.util.UUID;
 
 public class ProductCatalog {
     ProductStorage productStorage;

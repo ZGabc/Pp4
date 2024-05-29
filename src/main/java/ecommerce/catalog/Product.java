@@ -1,4 +1,4 @@
-package zG.catalog.hello;
+package ecommerce.catalog;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -39,4 +39,3 @@ public class Product {
         return description;
     }
 }
-

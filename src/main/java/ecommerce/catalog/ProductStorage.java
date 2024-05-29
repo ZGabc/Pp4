@@ -1,4 +1,4 @@
-package zG.catalog.hello;
+package ecommerce.catalog;
 
 import java.util.List;
 
