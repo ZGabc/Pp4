@@ -15,11 +15,10 @@ public class CreditCardTest {
         card.assignCredit(BigDecimal.valueOf(1000));
         //Assert
         assertEquals(
-            BigDecimal.valueOf(1000),
-            card.getBalance()
+                BigDecimal.valueOf(1000),
+                card.getBalance()
         );
     }
-
     @Test
     void itAllowsToAssignCreditV2() {
         //Arrange
@@ -79,7 +78,6 @@ public class CreditCardTest {
                 card.getBalance()
         );
     }
-
     @Test
     void itDenyWhenNotSufficientFounds() {
         CreditCard card = new CreditCard();
@@ -91,6 +89,5 @@ public class CreditCardTest {
                 () -> card.pay(BigDecimal.valueOf(200))
         );
     }
-
 
 }

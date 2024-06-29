@@ -18,11 +18,11 @@ public class AssertjTest {
 
     @Test
     void testSomeListExpression() {
-        var names = Collections.singleton("Jakub");
+        var names = Collections.singleton("Monika");
 
         assertThat(names)
                 .isUnmodifiable()
                 .hasSize(3)
-                .containsAll(Arrays.asList("Jakub", "Michal"));
+                .containsAll(Arrays.asList("Jakub", "Maciek"));
     }
 }

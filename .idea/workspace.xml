@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="026e9413-7c52-4876-b9ba-7bedaf40341f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/01--intro-to-tests.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/02--practice-tdd-credit-card.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/03--ecommerce-product-catalog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/04--dependency-inversion-decouple-catalog-from-storage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/05--spring-boot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/06--sql-database.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/07--product-catalog-UI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/08--collecting-product-UI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/09--shopping-cart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/10--reservation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/11--payu.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/00__browse_by_tag.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/04__dip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/04__refactor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/04__scd-foc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/08__checkout-sequence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/09__cart-class-diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/10__class.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/10__sequence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/AuthorizationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/OrderCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/OrderCreateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/PayU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/PayUCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecommerce/payu/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/catalog/CatalogHttpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/catalog/HashMapProductStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/catalog/ProductCatalogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/payu/PayUTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/sales/cart/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/sales/offering/OfferCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/sales/reservation/OfferAcceptanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ecommerce/sales/reservation/SpyPaymentGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/creditcard/AssertjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/creditcard/AssertjTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/creditcard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/creditcard/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/creditcard/NumberRepresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/creditcard/NumberRepresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ecommerce/sales/SalesHTTPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ecommerce/sales/SalesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ecommerce/sales/SalesTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2iV44KZefqsHJZ9X9reoMNjPacb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/krasn/OneDrive/Pulpit/Pp4/src/test/java/ecommerce",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\krasn\OneDrive\Pulpit\Pp4\src\test\java\ecommerce" />
+      <recent name="C:\Users\krasn\OneDrive\Pulpit\Pp4\src\main\java\ecommerce" />
+      <recent name="C:\Users\krasn\OneDrive\Pulpit\Pp4" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="026e9413-7c52-4876-b9ba-7bedaf40341f" name="Changes" comment="" />
+      <created>1719562223656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719562223656</updated>
+      <workItem from="1719562225255" duration="1426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
